@@ -65,7 +65,6 @@ namespace Charts {
           chartParent = d3.select(element[0]);
 
           const parentNode = element[0].parentNode;
-          
           width = (<any>parentNode).clientWidth;
           height = (<any>parentNode).clientHeight;
           modifiedInnerChartHeight = height - margin.top - margin.bottom - ContextChartDirective._XAXIS_HEIGHT,
